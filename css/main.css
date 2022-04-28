@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto';
+}
+
+.img-fluid {
+    width: 70%;
+}
+
+.parrafo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+
+
+.grey {
+    display: flex;
+    background-color: rgb(232, 229, 229);
+    height: 20vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.square {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.target {
+
+    background-color: rgb(232, 229, 229);
+
+
+
+}
+
+hr {
+   
+    color: green;
+    width: 6vh;
+    font-size: 20px;
+    
+
+
+}
+
+.lineLeft {
+    position: relative;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+i {
+    color: rgb(196, 17, 17);
+    font-size: 35px;
+    justify-items: right;
+}
+
+.parrafo2 {
+    text-align: left;
+
+    font-weight: 80;
+
+}
+
+.container {
+
+    padding: 0;
+
+
+}
+
+.icono {
+    display: flex;
+    justify-content: left;
+}
+
+.numeroLinea{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
